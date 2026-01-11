@@ -1,0 +1,66 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 { color: #1a73e8; text-align: center; margin-bottom: 1.5rem; }
+
+label { display: block; margin-bottom: 0.5rem; font-weight: bold; color: #555; }
+
+select, input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.button-group { display: flex; gap: 10px; }
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary { background-color: #1a73e8; color: white; }
+.btn-primary:hover { background-color: #1557b0; }
+
+.btn-secondary { background-color: #34a853; color: white; }
+.btn-secondary:hover { background-color: #2d8d46; }
+
+.result-panel {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.ogrenci-kart {
+    padding: 10px;
+    border-bottom: 1px solid #fafafa;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basarili { color: #2d8d46; font-weight: bold; }
+.basarisiz { color: #d93025; font-weight: bold; }

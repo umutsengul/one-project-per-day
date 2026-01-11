@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Giriş Paneli </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <h1>Not Kayıt Sistemi</h1>  
+        
+        <div class="input-panel">
+            <label for="ogrenciSec">Öğrenci Seçiniz</label>
+            <select id="ogrenciSec">
+                <option value="0">CAN BABA</option>
+                <option value="1">UMUT BABA </option>
+                <option value="2">SAHZAT ANNE</option>
+            </select>
+
+            <label for="notInput">Sınav Notu</label>
+            <input type="number" id="notInput" placeholder="0-100" min="0" max="100">
+
+            <div class="button-group">
+                <button id="btnEkle" class="btn-primary">Notu Sisteme İşle</button>
+                <button id="btnHesapla" class="btn-secondary">Sınıf Durumunu Göster</button>
+            </div>
+        </div>
+
+        <div id="sonucAlani" class="result-panel">
+            <p class="placeholder-text">Sonuçları görmek için hesapla butonuna basın.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
