@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#myButton{
+    font-size: 3em;
+    padding: 5px 25px;
+}
