@@ -1,8 +1,8 @@
 
 let ogrenciler = [
-    { ad: 'Yiğit', soyad: 'Bilgi', notlar: [] },
-    { ad: 'Ada', soyad: 'Bilgi', notlar: [] },
-    { ad: 'Çınar', soyad: 'Turan', notlar: [] }
+    { ad: 'CAN', soyad: 'BABA', notlar: [] },
+    { ad: 'UMUT', soyad: 'BABA', notlar: [] },
+    { ad: 'SAHZAT', soyad: 'ANNE', notlar: [] }
 ];
 
 
