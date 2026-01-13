@@ -12,7 +12,7 @@ body {
   font-size: 3em;
   padding: 5px 25px;
 }
-#myLabel {
+.myLabel {
   color: white;
   display: block;
   font-size: 2rem;
